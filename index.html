@@ -88,12 +88,26 @@
                 </div>
         </div>
     </section>
-    <footer id="contact-me">
-        <div>
-            <h2>Contact me</h2>
-            <p>sablinahare@gmail.com</p>
-        </div> 
-    </footer>
+    <footer class="footer">
+    
+        <div class="contact-content">
+  
+          <form id="form" action="" class="form">
+            <h4>Contact me</h4>
+            <label for="name">Name </label>
+            <input name="name" required type="text" id="name" placeholder="Your name">
+            <label for="email">Email </label>
+            <input name="email" type="text" id="email" required placeholder="Your email">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" cols="30" rows="6" required placeholder="Your message"></textarea>
+            <button type="submit" class="send">Send</button>
+          </form>
+          <a href="mailto:me@leonidasesteban.com" id="trick"></a>
+
+        </div>
+      
+   
+</footer>
     
     <script src="src/index.js"></script>
 </body>
