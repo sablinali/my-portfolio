@@ -66,13 +66,12 @@ h4{
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly; 
 }
 
 ul{
     display: flex;
     list-style-type: none;
-    width: 500px;
     justify-content: space-around;
     font-size: 30px;
 }
@@ -80,6 +79,7 @@ ul{
 
 li{
     text-decoration: none;
+    width: 200px;
 }
 
 h1{
